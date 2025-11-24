@@ -23,7 +23,5 @@ public class DurationMain {
         Duration between = Duration.between(start, end);
         System.out.println("between : " + between);
         System.out.println("between.toHours() : " + between.toHours() + "시간" + between.toMinutesPart() + "분");
-        System.out.println("toast_test_testosteron");
-        System.out.println("Fork에서 파일의 변경점을 찾을 수 있는지 테스트하기 위해 작성한 코드");
     }
 }
