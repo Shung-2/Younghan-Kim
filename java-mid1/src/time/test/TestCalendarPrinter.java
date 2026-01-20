@@ -29,7 +29,7 @@ public class TestCalendarPrinter {
         System.out.println("Su Mo Tu We Th Fr Sa ");
         for (int i = 0; i < offsetWeekDays; i++)
         {
-            System.out.print("   ");
+            System.out.print("  ");
         }
 
         LocalDate dayIterator = firstDayOfMonth;
